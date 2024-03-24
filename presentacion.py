@@ -23,13 +23,19 @@ print(presentacion)
 #    print("El número introducido no es válido")
     
 # operaciones matematicas
-suma = 8 + 9 
-resta = 265 - 25
-multiplicacion = 85 * 64
-division = 8945 / 25
+#suma = 8 + 9 
+#resta = 265 - 25
+#multiplicacion = 85 * 64
+#division = 8945 / 25
 
-print("suma:", suma)
-print("resta:", resta)
-print("multiplicacion:", multiplicacion)
-print("division:", division)
+#print("suma:", suma)
+#print("resta:", resta)
+#print("multiplicacion:", multiplicacion)
+#print("division:", division)
 
+#Calculo de numeros primos 
+n = int(input("Ingrese un número entero: "))
+suma = 0
+for i in range(2, n*2 + 1, 2):
+    suma += i
+print("La suma de los primeros", n, "números pares es:", suma)
